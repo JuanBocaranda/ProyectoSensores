@@ -69,13 +69,13 @@
             android:id="@+id/rdbTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aqui hay otro" />
+            android:text="Huella" />
 
         <RadioButton
             android:id="@+id/rdbThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aqui va otor mas" />
+            android:text="GPS" />
     </RadioGroup>
 
     <Button

@@ -32,8 +32,18 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent acelerometro = new Intent(getApplicationContext(), Acelerometro.class);
-                    startActivity(acelerometro);
+                    if(radiobutton.getText() == "Acelerometro"){
+                        Intent activity = new Intent(getApplicationContext(), Acelerometro.class);
+                        startActivity(activity);
+                    }
+                    else if(radiobutton.getText() == "Huella"){
+                        Intent activity = new Intent(getApplicationContext(), Huella.class);
+                        startActivity(activity);
+                    }
+                    else if(radiobutton.getText() == "GPS"){
+                        Intent activity = new Intent(getApplicationContext(), Gps.class);
+                        startActivity(activity);
+                    }
                 }
             }
         });
