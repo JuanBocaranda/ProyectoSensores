@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Huella">
+    tools:context=".Proximidad">
 
     <TextView
         android:id="@+id/textView4"
@@ -16,7 +16,7 @@
         android:layout_marginEnd="56dp"
         android:layout_marginRight="56dp"
         android:layout_marginBottom="613dp"
-        android:text="Huella Digital"
+        android:text="Sensor de Proximidad"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
