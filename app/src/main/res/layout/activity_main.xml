@@ -33,7 +33,7 @@
         android:layout_marginEnd="121dp"
         android:layout_marginRight="121dp"
         android:layout_marginBottom="550dp"
-        android:text="Escoja una opcion de Sensor:"
+        android:text="Escoja una opcion de los Sensores:"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
